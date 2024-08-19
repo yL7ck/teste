@@ -1,0 +1,9 @@
+ChangeLog 19/08/2024
+
+- Correção de Vazamento de Memória: Resolvido problema que causava queda de FPS e falhas relacionadas ao uso de espada.
+
+- Correção de Crash com Água e Lava: Problemas de travamento ao interagir com água e lava foram solucionados.
+
+- Correção de Crash com Fogo: Resolvidos crashes relacionados a todos os tipos de fogo.
+
+- Correção de Crash Geral: Diversos problemas de travamento identificados e corrigidos.
