@@ -9,8 +9,6 @@
             background-color: #121212;
             color: #fff;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
         }
         .container {
             max-width: 800px;
@@ -19,10 +17,6 @@
             background-color: #333;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #fff;
         }
         .changelogs {
             max-height: 400px;
@@ -39,37 +33,53 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .changelog-item strong {
+        .changelog-title {
             color: #007bff;
+        }
+        .changelog-date {
+            color: #ffa500; /* Laranja */
+        }
+        .changelog-description {
+            margin-top: 5px;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>ChangeLogs da AntiHack</h1>
-        <div class="changelogs" id="changelogContainer">
-            <!-- ChangeLogs will be inserted here by JavaScript -->
+        <h1 style="text-align: center; color: #fff;">ChangeLogs da AntiHack</h1>
+        <div class="changelogs">
+            <!-- Changelog Antigo -->
+            <div class="changelog-item">
+                <div class="changelog-title">ChangeLog 07/04/2024</div>
+                <div class="changelog-description">Alterações na Modpack</div>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-title">ChangeLog 07/04/2024</div>
+                <div class="changelog-description">Melhorias no AntiCheat</div>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-title">ChangeLog 07/04/2024</div>
+                <div class="changelog-description">Correção de Bugs</div>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-title">ChangeLog 07/04/2024</div>
+                <div class="changelog-description">Correção de Alocação de Memória</div>
+            </div>
+
+            <!-- Novo Changelog -->
+            <div class="changelog-item">
+                <div class="changelog-date">ChangeLog 19/08/2024</div>
+                <div class="changelog-description">
+                    <ul>
+                        <li>Correção de Vazamento de Memória: Resolvido problema que causava queda de FPS e falhas relacionadas ao uso de espada.</li>
+                        <li>Correção de Crash com Água e Lava: Problemas de travamento ao interagir com água e lava foram solucionados.</li>
+                        <li>Correção de Crash com Fogo: Resolvidos crashes relacionados a todos os tipos de fogo.</li>
+                        <li>Correção de Crash Geral: Diversos problemas de travamento identificados e corrigidos.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch('changelog.txt')
-                .then(response => response.text())
-                .then(text => {
-                    const changelogContainer = document.getElementById('changelogContainer');
-                    const lines = text.split('\n');
-                    let html = '';
-                    lines.forEach(line => {
-                        if (line.trim()) {
-                            html += `<div class="changelog-item"><strong>${line}</strong></div>`;
-                        }
-                    });
-                    changelogContainer.innerHTML = html;
-                })
-                .catch(error => {
-                    console.error('Error fetching changelog:', error);
-                });
-        });
-    </script>
 </body>
 </html>
