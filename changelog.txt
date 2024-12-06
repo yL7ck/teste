@@ -1,9 +1,18 @@
-ChangeLog 19/08/2024
+Changelog 01/01/2025
+Client v1.0.0-b (Beta)
 
-- Correção de Vazamento de Memória: Resolvido problema que causava queda de FPS e falhas relacionadas ao uso de espada.
+Launcher Updates
+- Custom launcher.
+- Fully automated updates.
 
-- Correção de Crash com Água e Lava: Problemas de travamento ao interagir com água e lava foram solucionados.
-
-- Correção de Crash com Fogo: Resolvidos crashes relacionados a todos os tipos de fogo.
-
-- Correção de Crash Geral: Diversos problemas de travamento identificados e corrigidos.
+AntiCheat Implementations
+- AntiDelayAura: Detection of artificial attack delays.
+- AntiFakeLag: Blocking false latency manipulations.
+- AntiMultiAura: Prevention of multiple simultaneous auras.
+- AntiSpeedHack: Blocking unauthorized speed modifications.
+- Module Verification (Mod Macro): Detection and prevention of illegal macros.
+- Mod Verification: Detailed inspection of allowed and prohibited mods.
+- AntiVelocity: Prevention of knockback manipulations.
+- AntiMemDump: Detection and blocking of unauthorized memory modifications.
+- AntiHitbox: Prevention of hitbox size manipulations.
+- AntiKillAura: Implemented in testing phase to detect KillAura usage.
