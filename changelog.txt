@@ -6,13 +6,13 @@ Launcher Updates
 - Fully automated updates.
 
 AntiCheat Implementations
-- AntiDelayAura: Detection of artificial attack delays.
-- AntiFakeLag: Blocking false latency manipulations.
-- AntiMultiAura: Prevention of multiple simultaneous auras.
-- AntiSpeedHack: Blocking unauthorized speed modifications.
-- Module Verification (Mod Macro): Detection and prevention of illegal macros.
-- Mod Verification: Detailed inspection of allowed and prohibited mods.
-- AntiVelocity: Prevention of knockback manipulations.
-- AntiMemDump: Detection and blocking of unauthorized memory modifications.
-- AntiHitbox: Prevention of hitbox size manipulations.
-- AntiKillAura: Implemented in testing phase to detect KillAura usage.
+- AntiDelayAura
+- AntiFakeLag
+- AntiMultiAura
+- AntiSpeedHack
+- Module Verification (Mod Macro)
+- Mod Verification
+- AntiVelocity
+- AntiMemDump
+- AntiHitbox
+- AntiKillAura
