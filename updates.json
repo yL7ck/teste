@@ -1,13 +1,5 @@
 [
   {
-    "path": ".\\launcher_settings.hash",
-    "hash": "b0e09d84d174e676c3f645275e1bcead29d3f078e94994ee00d3bdcdfcf4bfea"
-  },
-  {
-    "path": ".\\launcher_settings.json",
-    "hash": "fa7a7af874c7b88198a572c5f01f2e5ebae5c6ded51148cacad9cfd9a06f308c"
-  },
-  {
     "path": ".\\libraries\\com\\google\\code\\gson\\gson\\2.2.4\\gson-2.2.4.jar",
     "hash": "c0328cd07ca9e363a5acd00c1cf4afe8cf554bd6d373834981ba05cebec687fb"
   },
