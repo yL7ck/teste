@@ -1,3 +1,15 @@
+ChangeLog 12/01/2025
+Client v1.1.0-b (Beta)
+
+Melhorias
+- Aumento significativo de FPS com novas otimizações.
+- Melhor gestão de conexão usando a thread inicial.
+- O "FPS Boost" agora remove todas as partículas ao ser ativado.
+
+Correções
+- Resolvido crash ao alterar "pauseOnLostFocus".
+- Ajustes no AntiCheat para reduzir falsos positivos.
+
 Changelog 01/01/2025
 Client v1.0.0-b (Beta)
 
